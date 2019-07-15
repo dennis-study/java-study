@@ -11,20 +11,25 @@ public class MenuItem {
     /**
      * @param id the id to set
      */
-    public void setId(long id) {
+    public MenuItem setId(long id) {
         this.id = id;
+        return this;
     }
+
     /**
      * @param name the name to set
      */
-    public void setName(String name) {
+    public MenuItem setName(String name) {
         this.name = name;
+        return this;
     }
+
     /**
      * @param description the description to set
      */
-    public void setDescription(String description) {
+    public MenuItem setDescription(String description) {
         this.description = description;
+        return this;
     }
 
     /**
@@ -33,12 +38,14 @@ public class MenuItem {
     public long getId() {
         return id;
     }
+
     /**
      * @return the name
      */
     public String getName() {
         return name;
     }
+
     /**
      * @return the description
      */

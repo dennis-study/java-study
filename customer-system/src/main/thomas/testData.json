@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dennis",
+    "name": "방준호",
+    "age": 31,
+    "gender": "male"
+  },
+  {
+    "id": "henry",
+    "name": "임형준",
+    "age": 29,
+    "gender": "male"
+  },
+  {
+    "id": "thomas",
+    "name": "도병권",
+    "age": 30,
+    "gender": "male"
+  },
+  {
+    "id": "suzi",
+    "name": "수지",
+    "age": 25,
+    "gender": "female"
+  },
+  {
+    "id": "iu",
+    "name": "아이유",
+    "age": 25,
+    "gender": "female"
+  }
+]

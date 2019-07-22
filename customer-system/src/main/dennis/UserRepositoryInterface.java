@@ -1,5 +1,7 @@
 package src.main.dennis;
 
+import java.util.List;
+
 public interface UserRepositoryInterface {
-    public List
+    List<User> find(String id);
 }

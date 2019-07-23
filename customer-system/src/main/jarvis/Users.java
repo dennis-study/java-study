@@ -2,7 +2,7 @@ package src.main.jarvis;
 
 public class Users {
 	private int no;
-	private String userid;
+	private String id;
 	private String name;
 	private int age;
 	private String gender;
@@ -10,7 +10,7 @@ public class Users {
 	public Users(){}
 	public Users(int no, String userid, String name, int age, String gender) {
 		this.no = no;
-		this.userid = userid;
+		this.id = userid;
 		this.name = name;
 		this.age = age;
 		this.gender = gender;
@@ -22,11 +22,11 @@ public class Users {
 	public void setNo(int no) {
 		this.no = no;
 	}
-	public String getUserid() {
-		return userid;
+	public String getId() {
+		return this.id;
 	}
-	public void setUserid(String userid) {
-		this.userid = userid;
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getName() {
 		return name;
